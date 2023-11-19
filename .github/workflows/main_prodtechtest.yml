@@ -63,4 +63,4 @@ jobs:
           app-name: 'prodtechtest'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA12BBE4778540C5A3952225F72B3507 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
